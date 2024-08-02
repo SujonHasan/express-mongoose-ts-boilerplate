@@ -40,7 +40,7 @@ npm run dev
 ```
 
 ## use Postman
-### [Postman](https://app.getpostman.com/join-team?invite_code=9fba183b943192afb568cf7f9a36b84e&target_code=04965d64946843ac5fdb85eea6898a5d)
+### [Postman Workspace](https://app.getpostman.com/join-team?invite_code=9fba183b943192afb568cf7f9a36b84e&target_code=04965d64946843ac5fdb85eea6898a5d)
 
 
 ## Database Schema
@@ -50,4 +50,4 @@ npm run dev
 For any questions or suggestions, please contact Sujon Hasan at [sujonhasan171@gmail.com](mailto:sujonhasan171@gmail.com)
 
 ## License
-[MIT](https://choosealicense.com/licenses/isc/)
+[ISC](https://choosealicense.com/licenses/isc/)
