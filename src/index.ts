@@ -1,4 +1,6 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
+import logger from "@config/logger";
 import app from "./app";
 
 let server : any;
@@ -10,11 +12,11 @@ let server : any;
 
 mongoose.connect(process.env.MONGODB_URL, {useNewUrlParser: true, useUnifiedTopology: true}).then(()=>{
 
-    console.log("connected to MongoDB");
+    logger.info("connected to MongoDB");
 
     server = app.listen(process.env.HOST_PORT, ()=>{
 
-        console.log(`Listening to port ${process.env.HOST_PORT}`);
+        logger.info(`Listening to port ${process.env.HOST_PORT}`);
         
     })
 }).catch((err) => console.log("Mongoose connection error : " + err))
