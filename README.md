@@ -40,7 +40,7 @@ npm run dev
 ```
 
 ## use Postman
-### [Postman Workspace](https://app.getpostman.com/join-team?invite_code=9fba183b943192afb568cf7f9a36b84e&target_code=04965d64946843ac5fdb85eea6898a5d)
+### [Postman Workspace](https://www.postman.com/gold-crescent-156982/workspace/express-mongoose-basic-server)
 
 
 ## Database Schema
